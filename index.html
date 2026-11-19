@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Акции Frau Gross: скидки до 50% в Пензе</title>
+  <meta name="description" content="Скидка в день рождения до 50%, 6-й бизнес-ланч в подарок, пиво на вынос −10% и скидки на годовщину свадьбы. Пенза, Frau Gross.">
+  <meta property="og:title" content="Акции ресторана-пивоварни Frau Gross">
+  <meta property="og:description" content="Выгода до 50% на день рождения, бесплатный бизнес-ланч, пиво на вынос −10% и скидки на годовщину свадьбы.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="theme-color" content="#0E0C0A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="container header__inner">
+      <a class="header__logo" href="https://fraugross.com/">Frau Gross</a>
+
+      <nav class="header__nav" id="header-nav" aria-label="Основная навигация">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#promos">Акции</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#promos">Меню</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#banquets">Банкеты</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="https://fraugross.com" target="_blank" rel="noopener noreferrer">Галерея</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#footer">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__contacts">
+        <a class="header__phone" href="tel:+78412205001">8 (8412) 205-001</a>
+        <span class="header__schedule">Ежедневно с 12:00 до 24:00</span>
+      </div>
+
+      <button class="header__cta btn" type="button" data-modal-open data-promo="none" aria-haspopup="dialog">Забронировать стол</button>
+
+      <button class="header__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="header-nav">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="akcii">
+      <div class="container hero__inner">
+        <h1 class="hero__title">Акции Frau Gross: выгода до 50% на ваш повод</h1>
+        <p class="hero__subtitle">Скидка равна возрасту, шестой бизнес-ланч — в подарок, пиво на вынос дешевле. Выберите повод — остальное сделаем мы.</p>
+
+        <div class="tabs">
+          <div class="tabs__list" role="tablist" aria-label="Фильтр акций">
+            <button class="tabs__btn tabs__btn--active" type="button" role="tab" id="tab-all" data-filter="all" aria-selected="true" aria-controls="promos-panel" tabindex="0">Все акции</button>
+            <button class="tabs__btn" type="button" role="tab" id="tab-banquets" data-filter="banquets" aria-selected="false" aria-controls="promos-panel" tabindex="-1">Банкеты и даты</button>
+            <button class="tabs__btn" type="button" role="tab" id="tab-lunch" data-filter="lunch" aria-selected="false" aria-controls="promos-panel" tabindex="-1">Бизнес-ланчи</button>
+            <button class="tabs__btn" type="button" role="tab" id="tab-takeaway" data-filter="takeaway" aria-selected="false" aria-controls="promos-panel" tabindex="-1">На вынос</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promos" id="promos">
+      <div class="container" id="banquets">
+        <h2 class="visually-hidden">Акции ресторана Frau Gross</h2>
+        <div class="promos__grid" id="promos-panel" role="tabpanel" aria-label="Список акций" aria-labelledby="tab-all">
+
+          <article class="card" data-category="banquets" data-promo="birthday">
+            <div class="card__media">
+              <div class="card__img-wrap">
+                <img class="card__img" src="https://fraugross.com/upload/iblock/337/5G7A6777.jpg" alt="Акция ко дню рождения — зал ресторана Frau Gross" loading="lazy" width="320" height="180">
+                <div class="card__img-overlay" aria-hidden="true"></div>
+              </div>
+              <span class="card__badge"><span class="card__badge-value">до 50%</span></span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Скидка на день рождения — равна вашему возрасту</h3>
+              <p class="card__desc">Закажите банкет на день рождения — и получите скидку, равную вашему возрасту. Акция действует каждый день.</p>
+              <button class="card__cta btn" type="button" data-modal-open data-promo="birthday" aria-haspopup="dialog">Забронировать банкет</button>
+            </div>
+            <div class="card__details">
+              <button class="card__details-toggle" type="button" aria-expanded="false" aria-controls="details-birthday">Условия акции</button>
+              <ul class="card__details-list" id="details-birthday" aria-hidden="true">
+                <li class="card__details-item">Скидкой можно воспользоваться каждый день, кроме праздничных, концертных и корпоративных дней.</li>
+                <li class="card__details-item">Скидкой можно воспользоваться за три дня до дня рождения и семь дней после дня рождения.</li>
+                <li class="card__details-item">Максимальная скидка составляет 50%, скидка предоставляется гостям, достигшим 18 лет.</li>
+                <li class="card__details-item">Скидка действительна, только при предъявлении документа, удостоверяющего личность именинника, копия документа остается в заведении.</li>
+                <li class="card__details-item">Скидкой можно воспользоваться несколько раз!</li>
+                <li class="card__details-item">Скидка действует на меню кухни, входящие в счет именинника, исключая алкоголь. Под счётом именинника в целях акции «Именинникам скидка, равная возрасту» понимается счет столика (т.е. все заказанные этим столиком блюда), за которым размещен именинник (присутствие именинника обязательно). В тех случаях, когда по просьбе гостя счет был разделён между гостями, сидящими за одним столиком, под счетом именинника понимается счет, в котором указаны блюда, заказанные именинником.</li>
+                <li class="card__details-item">Если за праздничным столом находятся два именинника, скидка не суммируется, гости вправе выбрать старшего по возрасту именинника для получения скидки.</li>
+                <li class="card__details-item">Скидка предоставляется на основное меню кухни, не распространяется на карту напитков (все напитки: безалкогольные, алкогольные напитки, в том числе пиво), бизнес-ланчи, сезонное и детское меню, шоу-программу.</li>
+                <li class="card__details-item">Воспользоваться скидкой можно в основном зале ресторана (не действует на летней террасе).</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-category="lunch" data-promo="lunch">
+            <div class="card__media">
+              <div class="card__img-wrap">
+                <img class="card__img" src="https://fraugross.com/upload/iblock/6ea/5G7A4870.jpg" alt="Каждый шестой комплексный обед в подарок — Frau Gross" loading="lazy" width="320" height="180">
+                <div class="card__img-overlay" aria-hidden="true"></div>
+              </div>
+              <span class="card__badge"><span class="card__badge-value">6-й в подарок</span></span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Каждый шестой комплексный обед — в подарок</h3>
+              <p class="card__desc">Закажите пять бизнес-ланчей — и пообедайте в следующий раз бесплатно. Отметки ставит официант при расчёте.</p>
+              <button class="card__cta btn" type="button" data-modal-open data-promo="lunch" aria-haspopup="dialog">Забронировать ланч</button>
+            </div>
+            <div class="card__details">
+              <button class="card__details-toggle" type="button" aria-expanded="false" aria-controls="details-lunch">Условия акции</button>
+              <ul class="card__details-list" id="details-lunch" aria-hidden="true">
+                <li class="card__details-item">Попросите у официанта или администратора купон для заполнения отметок, и за каждый полный бизнес-ланч получите отметку в купоне во время расчёта.</li>
+                <li class="card__details-item">При накопление пяти отметок на купоне – шестой комплексный обед в подарок!</li>
+                <li class="card__details-item">После получения 6-го обеда купон изымается.</li>
+                <li class="card__details-item">Купон действителен 2 месяца.</li>
+                <li class="card__details-item">Печати на купонах не суммируются между собой.</li>
+                <li class="card__details-item">Бесплатный обед будет только на следующий день после получения пятой печати.</li>
+                <li class="card__details-item">Печать ставится только при приобретение полного бизнес-ланча (салат, суп, горячее-гарнир, напиток).</li>
+                <li class="card__details-item">Новый купон выдается на следующий день после шестого бесплатного обеда.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-category="takeaway" data-promo="beer">
+            <div class="card__media">
+              <div class="card__img-wrap">
+                <img class="card__img" src="https://fraugross.com/upload/iblock/8db/IMG_9029.jpg" alt="Пиво на вынос со скидкой 10% — Frau Gross" loading="lazy" width="320" height="180">
+                <div class="card__img-overlay" aria-hidden="true"></div>
+              </div>
+              <span class="card__badge"><span class="card__badge-value">−10%</span></span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Берите пиво с собой со скидкой 10%</h3>
+              <p class="card__desc">Любите наше пиво — пейте его не только у нас, но и дома. Покупайте «на вынос» со скидкой 10%.</p>
+              <button class="card__cta btn" type="button" data-modal-open data-promo="beer" aria-haspopup="dialog">Забронировать стол</button>
+            </div>
+            <div class="card__details">
+              <button class="card__details-toggle" type="button" aria-expanded="false" aria-controls="details-beer">Условия акции</button>
+              <ul class="card__details-list" id="details-beer" aria-hidden="true">
+                <li class="card__details-item">Данная скидка действует каждый день и составляет 10%</li>
+                <li class="card__details-item">Скидка распространяется только на пиво, купленное для употребления вне стен ресторана, а также если человек после банкета захотел взять пиво с собой.</li>
+                <li class="card__details-item">Скидка действует на все пиво из пивного меню, исключая безалкогольное пиво, алкоголь, всевозможные напитки и еду.</li>
+                <li class="card__details-item">Скидка не суммируется с другими акциями и предложениями ресторана.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-category="banquets" data-promo="anniversary">
+            <div class="card__media">
+              <div class="card__img-wrap">
+                <img class="card__img" src="https://fraugross.com/upload/iblock/e56/5G7A4346.jpg" alt="Акция «Счастливы вместе» — годовщина свадьбы в Frau Gross" loading="lazy" width="320" height="180">
+                <div class="card__img-overlay" aria-hidden="true"></div>
+              </div>
+              <span class="card__badge"><span class="card__badge-value">10–50%</span></span>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Акция «Счастливы вместе»</h3>
+              <p class="card__desc">В годовщину свадьбы дарим скидку от 10% до 50% — равную количеству лет в браке. Дарите друг другу моменты!</p>
+              <button class="card__cta btn" type="button" data-modal-open data-promo="anniversary" aria-haspopup="dialog">Забронировать столик</button>
+            </div>
+            <div class="card__details">
+              <button class="card__details-toggle" type="button" aria-expanded="false" aria-controls="details-anniversary">Условия акции</button>
+              <ul class="card__details-list" id="details-anniversary" aria-hidden="true">
+                <li class="card__details-item">Скидкой можно воспользоваться каждый день, кроме праздничных, концертных и корпоративных дней.</li>
+                <li class="card__details-item">Скидкой можно воспользоваться за три дня до и семь дней после торжественной даты.</li>
+                <li class="card__details-item">Максимальная скидка составляет 50%, скидка предоставляется гостям, достигшим 18 лет.</li>
+                <li class="card__details-item">Необходимо показать документ (паспорт или свидетельство о браке) администратору.</li>
+                <li class="card__details-item">Скидкой можно воспользоваться только один раз в год!</li>
+                <li class="card__details-item">Скидка действует на меню кухни, входящие в счет, исключая алкоголь. Под счётом в целях акции понимается счет столика (т.е. все заказанные этим столиком блюда).</li>
+                <li class="card__details-item">Если за праздничным столом находятся две пары, скидка не суммируется, гости вправе выбрать любых виновников торжества для получения скидки.</li>
+                <li class="card__details-item">Скидка предоставляется на основное меню кухни, не распространяется на карту напитков (все напитки: безалкогольные, алкогольные напитки, в том числе пиво), бизнес-ланчи, сезонное и детское меню, шоу-программу.</li>
+                <li class="card__details-item">Воспользоваться скидкой можно в основном зале ресторана (не действует на летней террасе).</li>
+              </ul>
+            </div>
+          </article>
+
+          <p class="promos__empty" hidden>По выбранной категории акций пока нет.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="afisha" id="afisha">
+      <div class="container">
+        <article class="afisha__card">
+          <div class="afisha__bg" aria-hidden="true"></div>
+
+          <div class="afisha__poster">
+            <img class="afisha__poster-img" src="https://fraugross.com/upload/resize_cache/iblock/49f/227_327_1/tKhodeWFI8E.jpg" alt="Афиша ближайшего концерта в ресторане Frau Gross" loading="lazy" width="227" height="327">
+          </div>
+
+          <div class="afisha__body">
+            <p class="afisha__label">Афиша</p>
+            <h2 class="afisha__title">Живые концерты и вечера в Frau Gross</h2>
+            <p class="afisha__desc">В праздничные и концертные дни скидки не действуют. Загляните в афишу, чтобы выбрать свободный вечер и забронировать стол заранее.</p>
+            <a class="afisha__cta btn" href="https://fraugross.com/sobytiya/">Смотреть афишу</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="notice">
+      <div class="container notice__inner">
+        <span class="notice__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 9v4"></path>
+            <path d="M12 17h.01"></path>
+            <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+          </svg>
+        </span>
+        <p class="notice__text">Скидки не действуют в праздничные, концертные и корпоративные дни. Планируете визит — сверьтесь с афишей.</p>
+        <a class="notice__link" href="https://fraugross.com/sobytiya/">Смотреть Афишу</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <p class="footer__address">г. Пенза, пр. Строителей, 152 Б, 4-ый этаж</p>
+        <a class="footer__phone" href="tel:+78412205001">8 (8412) 205-001</a>
+        <p class="footer__schedule">Ежедневно с 12:00 до 24:00</p>
+      </div>
+      <div class="footer__col">
+        <nav class="footer__nav" aria-label="Навигация в подвале">
+          <a class="footer__nav-link" href="#promos">Акции</a>
+          <a class="footer__nav-link" href="#promos">Меню</a>
+          <a class="footer__nav-link" href="#banquets">Банкеты</a>
+          <a class="footer__nav-link" href="https://fraugross.com" target="_blank" rel="noopener noreferrer">Галерея</a>
+          <a class="footer__nav-link" href="#footer">Контакты</a>
+        </nav>
+      </div>
+      <div class="footer__col">
+        <a class="footer__policy" href="https://fraugross.com/policy/">Политика обработки персональных данных</a>
+        <p class="footer__copyright">© Ресторан «Frau Gross», Пенза</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie" role="status" aria-live="polite" id="cookie">
+    <p class="cookie__text">Наш сайт использует куки. Продолжая им пользоваться, вы соглашаетесь на обработку персональных данных согласно Политике конфиденциальности.</p>
+    <a class="cookie__link" href="https://fraugross.com/policy/">Политика конфиденциальности</a>
+    <button class="btn" type="button" data-cookie-accept>Согласен</button>
+  </div>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__dialog">
+      <div class="modal__header">
+        <h2 class="modal__title" id="modal-title">Забронировать стол</h2>
+        <button class="modal__close" type="button" aria-label="Закрыть окно" data-modal-close></button>
+      </div>
+
+      <form class="modal__form" id="booking-form" novalidate>
+        <div class="modal__field">
+          <label class="modal__label" for="field-name">Имя</label>
+          <input class="modal__input" type="text" id="field-name" name="name" placeholder="Как к вам обращаться?" required>
+        </div>
+        <div class="modal__field">
+          <label class="modal__label" for="field-phone">Телефон</label>
+          <input class="modal__input" type="tel" id="field-phone" name="phone" placeholder="+7 (___) ___-__-__" inputmode="tel" required>
+        </div>
+        <div class="modal__field">
+          <label class="modal__label" for="field-date">Дата визита</label>
+          <input class="modal__input" type="date" id="field-date" name="date">
+        </div>
+        <div class="modal__field">
+          <label class="modal__label" for="field-guests">Количество гостей</label>
+          <input class="modal__input" type="number" id="field-guests" name="guests" min="1" max="50" value="2">
+        </div>
+        <div class="modal__field">
+          <label class="modal__label" for="field-promo">Акция</label>
+          <select class="modal__select" id="field-promo" name="promo">
+            <option value="birthday">Скидка ко дню рождения</option>
+            <option value="lunch">Каждый 6 комплексный обед</option>
+            <option value="beer">Пиво на вынос −10%</option>
+            <option value="anniversary">Счастливы вместе</option>
+            <option value="none">Без акции</option>
+          </select>
+        </div>
+
+        <p class="modal__error" id="form-error" role="alert" hidden></p>
+
+        <button class="modal__submit btn" type="submit">Отправить заявку</button>
+      </form>
+
+      <div class="modal__success" role="status" hidden>
+        <span class="modal__success-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 6 9 17l-5-5"></path>
+          </svg>
+        </span>
+        <p class="modal__success-text">Заявка отправлена! Мы перезвоним в течение 15 минут в часы работы.</p>
+        <button class="modal__success-close" type="button" data-modal-close>Закрыть</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

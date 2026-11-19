@@ -1,0 +1,130 @@
+/* ==========================================================================
+   reset.css — современный сброс стилей
+   Проект: лендинг акций ресторана-пивоварни «Frau Gross»
+   ========================================================================== */
+
+/* Универсальная блочная модель */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Обнуление внешних и внутренних отступов */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Корневой документ */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Основной контейнер страницы */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Медиа-элементы ведут себя как блочные и не выходят за контейнер */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Формы наследуют типографику и цвет */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+/* Кнопка по умолчанию — плоская и кликабельная */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Ссылки без подчёркивания, наследуют цвет */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Списки без маркеров */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Сброс заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+/* Сброс абзацев */
+p {
+  margin: 0;
+}
+
+/* Текстовые поля и области не растягиваются за контейнер */
+textarea {
+  resize: vertical;
+}
+
+/* Таблицы без двойных границ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Доступный видимый фокус для клавиатурной навигации */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Убираем фокус для мышиных кликов */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ==========================================================================
+   Предпочтение пониженной анимации
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+}
